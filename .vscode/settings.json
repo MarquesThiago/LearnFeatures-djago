@@ -32,7 +32,8 @@
       ".git/objects",
       ".vscode",
       ".vscode-insiders",
-      "**/settings.py"
+      "**/settings.py",
+      "**/settings.json"
     ],
     "cSpell.words": [
       "xqyki"

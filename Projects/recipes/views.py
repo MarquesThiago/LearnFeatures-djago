@@ -6,7 +6,7 @@ from django.http import HttpResponse, HttpRequest
 
 def index(request: HttpRequest) -> HttpResponse:
     return render(request, "Recipes/home.html", context={
-        "message": "Hello, Welcome Pagine Home"
+        "message": "Hello, Welcome Page Home"
     })
 
 
