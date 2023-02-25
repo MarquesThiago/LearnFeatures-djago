@@ -5,8 +5,7 @@ from django.http import HttpResponse, HttpRequest
 
 
 def index(request: HttpRequest) -> HttpResponse:
-    print(request)
-    return HttpResponse("<h1>Index</h1></br><h3>principal page</h3>")
+    return render(request, "home.html")
 
 
 def rice(request: HttpRequest) -> HttpResponse:
